@@ -8,14 +8,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <GridView
-        android:id="@+id/gridview"
-        android:numColumns="3"
+
+    <Button
+        android:id="@+id/boton"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-
-    </GridView>
-
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>
